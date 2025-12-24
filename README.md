@@ -17,10 +17,7 @@ A modern, real-time chat application built with Flutter and Firebase, featuring 
 
 | Login Screen | Home Screen | Chat Screen |
 |:---:|:---:|:---:|
-| ![Login](<img width="396" height="853" alt="Screenshot 2025-12-24 214958" src="https://github.com/user-attachments/assets/5a8721b3-ee10-4db2-a56b-b9fe02a0c270" />
-) | ![Home](<img width="398" height="847" alt="Screenshot 2025-12-24 215032" src="https://github.com/user-attachments/assets/c274abd5-54e3-46e5-88da-c599e714f9cc" />
-) | ![Chat](<img width="399" height="852" alt="Screenshot 2025-12-24 215127" src="https://github.com/user-attachments/assets/3aa82063-7c9d-465a-883f-db0df07833e6" />
-) |
+| <img src="https://github.com/user-attachments/assets/5a8721b3-ee10-4db2-a56b-b9fe02a0c270" width="250" alt="Login Screen"> | <img src="https://github.com/user-attachments/assets/c274abd5-54e3-46e5-88da-c599e714f9cc" width="250" alt="Home Screen"> | <img src="https://github.com/user-attachments/assets/3aa82063-7c9d-465a-883f-db0df07833e6" width="250" alt="Chat Screen"> |
 
 ## Tech Stack
 
