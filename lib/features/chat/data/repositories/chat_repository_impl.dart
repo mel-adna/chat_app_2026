@@ -119,7 +119,10 @@ class ChatRepositoryImpl implements ChatRepository {
           .collection('messages')
           .doc(); // Auto-ID
 
-      batch.set(messageRef, messageModel.toMap());
+      batch.set(messageRef, {
+        ...messageModel.toMap(),
+        'timestamp': FieldValue.serverTimestamp(),
+      });
 
       // 2. Update Sender's Recent Chat (No unread count increase)
       final senderChatRef = _firestore

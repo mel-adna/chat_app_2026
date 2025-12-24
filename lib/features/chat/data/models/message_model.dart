@@ -22,7 +22,7 @@ class MessageModel extends MessageEntity {
         (e) => e.toString() == data['type'],
         orElse: () => MessageType.text,
       ),
-      timestamp: (data['timestamp'] as Timestamp).toDate(),
+      timestamp: (data['timestamp'] as Timestamp?)?.toDate() ?? DateTime.now(),
     );
   }
 
