@@ -37,7 +37,7 @@ A modern, real-time chat application built with Flutter and Firebase, featuring 
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/chat_2026.git
+    git clone https://github.com/mel-adna/chat_app_2026.git
     cd chat_2026
     ```
 
