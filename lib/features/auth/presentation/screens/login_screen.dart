@@ -155,7 +155,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Image.network(
-                            'https://storage.googleapis.com/cms-storage-bucket/a9d6ce81aee44ae017ee.png',
+                            'https://developers.google.com/identity/images/g-logo.png',
                             height: 24,
                             width: 24,
                             loadingBuilder: (context, child, loadingProgress) {
